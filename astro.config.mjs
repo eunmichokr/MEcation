@@ -4,5 +4,5 @@ import { defineConfig } from 'astro/config';
 // 예: https://<username>.github.io/<repo-name>/
 export default defineConfig({
   site: 'https://your-username.github.io',
-  base: '/joeunmi-wimhof',
+  base: '/MEcation',
 });
