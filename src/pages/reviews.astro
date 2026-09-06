@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const reviews = [
+  {
+    name: 'Sarah, 캐나다',
+    text: '한옥에서 국악을 들으며 하는 호흡법은 처음이었어요. 얼음물에 들어갈 때 느꼈던 두려움이 오히려 편안함으로 바뀌었습니다.',
+  },
+  {
+    name: '민준, 서울',
+    text: '평소 스트레스가 많았는데, 세션이 끝나고 몸이 가벼워진 게 확실히 느껴졌어요.',
+  },
+];
+---
+<Layout title="후기" description="참가자 후기">
+  <section class="wrap section" style="border-top:none;">
+    <h1>참가자 후기</h1>
+    {reviews.map((r) => (
+      <div class="program-row">
+        <span class="program-label">{r.name}</span>
+        <p>{r.text}</p>
+      </div>
+    ))}
+  </section>
+</Layout>

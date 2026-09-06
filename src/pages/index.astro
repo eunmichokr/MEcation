@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL;
+---
+<Layout title="홈" description="한옥에서 만나는 윔호프 호흡법, 조은미와 함께">
+  <section class="wrap hero">
+    <div>
+      <p class="hero-eyebrow">서울 한옥 스튜디오 · 숨결</p>
+      <h1>숨을 고르고, 몸의 온도를 되찾는 시간</h1>
+      <p>
+        네덜란드에서 시작된 윔호프 호흡법을, 대금과 가야금 소리가 흐르는
+        한옥 마당에서 경험해보세요. 조은미와 함께라면 처음이어도 괜찮습니다.
+      </p>
+      <p style="margin-top:2rem;">
+        <a class="btn" href={`${base}booking`}>체험 예약하기</a>
+        <a class="btn btn-outline" style="margin-left:0.75rem;" href={`${base}programs`}>프로그램 보기</a>
+      </p>
+    </div>
+    <div class="hero-visual"></div>
+  </section>
+
+  <section class="section wrap">
+    <h2>왜 한옥에서, 왜 국악인가요</h2>
+    <p>
+      호흡은 몸의 리듬이고, 국악은 숨을 닮은 음악입니다. 대금의 긴 호흡과
+      가야금의 여백은 윔호프 호흡법의 들숨과 날숨 사이에 자연스럽게 스며듭니다.
+      나무와 흙으로 지어진 한옥의 온기는 얼음물에 들어가기 전과 후, 몸이
+      머물 자리를 만들어줍니다.
+    </p>
+  </section>
+
+  <section class="section wrap">
+    <h2>세 가지 감각으로 완성되는 세션</h2>
+    <div class="program-row">
+      <span class="program-label">호흡</span>
+      <div>
+        <h3>윔호프 호흡법</h3>
+        <p>국악 사운드트랙에 맞춰 진행하는 3라운드 호흡 세션으로 시작합니다.</p>
+      </div>
+    </div>
+    <div class="program-row">
+      <span class="program-label">냉기</span>
+      <div>
+        <h3>아이스배스</h3>
+        <p>한옥 마당의 항아리를 개조한 냉수 욕조에서 안전하게 냉수 노출을 경험합니다.</p>
+      </div>
+    </div>
+    <div class="program-row">
+      <span class="program-label">온기</span>
+      <div>
+        <h3>온돌 회복</h3>
+        <p>따뜻한 온돌방에서 몸을 회복하며 세션을 마무리합니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <h2>조은미를 소개합니다</h2>
+    <p>
+      Wim Hof Method 공식 인증 강사이자, 오랜 시간 인바운드 관광업에서
+      한국을 세계에 소개해온 조은미가 안내합니다. 한국 문화와 윔호프 메소드를
+      잇는 세션을 직접 설계했습니다.
+    </p>
+    <p><a href={`${base}about`}>조은미의 이야기 더 보기</a></p>
+  </section>
+</Layout>
