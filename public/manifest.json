@@ -1,12 +1,12 @@
 {
-  "name": "조은미 윔호프 스튜디오",
-  "short_name": "숨결",
+  "name": "조은미 · MEcation 스튜디오",
+  "short_name": "MEcation",
   "description": "한옥에서 만나는 윔호프 호흡법, 조은미와 함께",
   "start_url": "/MEcation/",
   "scope": "/MEcation/",
   "display": "standalone",
-  "background_color": "#EDE6D6",
-  "theme_color": "#221E19",
+  "background_color": "#F4EEDD",
+  "theme_color": "#241F1A",
   "lang": "ko",
   "icons": [
     {
